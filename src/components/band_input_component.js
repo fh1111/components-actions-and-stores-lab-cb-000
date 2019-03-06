@@ -10,7 +10,7 @@ export default class BandInput extends React.Component {
     render(){
         return(
         <div>
-            <form onSubmit={this.onSubmit}>
+            <form onSubmit={this.onSubmit.bind(this)}>
                 <label>Enter Band: </label>
                 <input />
                 <button type="submit">Submit</button>
