@@ -9,5 +9,5 @@ import BandInput from './components/band_input_component';
 const store = createStore(reducer)
 
 function render(){
-  ReactDOM.render(<InsertTopLevelComponent />, document.getElementById('container'))
+  ReactDOM.render(<BandInput />, document.getElementById('container'))
 }
