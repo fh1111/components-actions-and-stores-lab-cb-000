@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-class BandInputComponent extends Component {
+
+export default class BandInput extends Component {
   render(
     return(
-      <div>hello</div>
+      <div>I LIEK TEH BANDZ</div>
     )
   )
 }
